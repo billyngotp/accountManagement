@@ -10,7 +10,6 @@ class User{
     }
     //Add into library
     signUp(){
-
         //If email is not inside library
         if(!listOfUsers.has(this.email)){
             //Check for correct Passwords
@@ -62,9 +61,7 @@ class User{
         else{
             console.log("Your password does not match our records.");
         }
-        
     }
-
 }
 
 function main(){

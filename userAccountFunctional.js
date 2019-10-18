@@ -1,24 +1,51 @@
-function signUp(user){
-    
+const listOfWords = new Map([["testingtester@test.com", "iluvtesting"]]);
+
+class User (email, password, confirmPassword){
 }
 
-function signIn(user){
+/*
+var User = (function() {
 
-}
+    let username = "";
+    let pass = "";
+    let confPass = "";
 
-function signOut(user){
+    console.log(username + "outside return" + pass);
+    return {
 
-}
+        signUp: function(user) {
+            console.log("Sign up user");
+            if (!listOfWords.has(username));
+            {
+                console.log(username + "created element" + pass);
+                listOfWords.set(username ,pass);
+                
+            }
+        } ,
+        signIn: function(user) {
+            console.log("Sign in user");
+        } , 
+        signOut: function(user) {
+            console.log("Sign out user");
+        } ,
+        changePassword: function(previous, next, user){
+            console.log("Change password");
+        } ,
+        displayMap: function() {
+            (console.log(listOfWords));
+        }
 
-function changePassword(previous, next, user){
-
-}
-
+    };
+}());
+*/
 
 function main(){
-    let user = new User{email: ""};
+    //const bob = new User("helpme@example", "1234", "1234");
+    //User.displayMap();
 
 
 }
 
 main();
+
+
